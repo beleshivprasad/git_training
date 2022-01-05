@@ -1,0 +1,10 @@
+Q4. How to delete one commit or multiple commits permanently Write command for it. 
+ans: we can use git revert or git reset.
+example
+if there are 4 commits
+1
+2
+3
+4
+
+we can do git reset HEAD~1 or git revert HEAD~1
