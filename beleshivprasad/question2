@@ -1,3 +1,5 @@
-working on feature 
-completed 50%
-complete the feature
+Q2. How to set multiple remote repositories for the same project? Explain the use case. you should have a working demo of it.
+ans: These are the command example
+git remote set-url --add --push origin git://original/repo.git
+git remote set-url --add --push origin git://another/repo.git
+we can use them to push code to remote repo.In above case if you do git push it wil push the local repo to all remote repo which are added by above method.
