@@ -1,0 +1,7 @@
+What is Cherry Pick? Explain the use case of it?
+Cherry-picking is a process of taking a commit from a branch and append it to another branch.It can be useful for undoing the changes.It is more usefull when someone done the commit to wrong branch and we can revert the changes by cherry picking .
+Use Case: Commit to wrong branch.
+1.commited some code to wrong branch.
+2.then switch to branch that you wanted to commit.
+3.then type command 'git cherry-pick commit_ID' .
+4.here commit_ID is id of commit that you did.
